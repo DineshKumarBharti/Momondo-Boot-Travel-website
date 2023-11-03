@@ -1,3 +1,44 @@
-h1{
-    color: ;
+@font-face {
+    font-family: font1;
+    src: url(../fonts/font1.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: font1, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bg-blue{
+    background: #131E3A;
+}
+.bg-sky{
+    background: #5E317C;
+}
+.bg-sky2{
+    background: #664CAD;
+}
+.bg-dark2{
+    background: #1F172F;
+}
+.text-succees2.{
+    color: #4E6C3D;
+}
+.text-black1{
+    color: #000806;
+}
+.text-black2{
+    color: #173738;
+}
+text-danger2{
+    color: #F62F44;
+}
+text-warning2{
+    color: #F79007;
+}
+.banner{
+    width: 100%;
+    height: 550px;
+    background: url(../img/logo1.jpg);
+    background-size: 100% 100%;
 }
